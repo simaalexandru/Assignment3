@@ -14,7 +14,7 @@ class Database
 	
 	public static function connect()
 	{
-	   // One connection through whole application
+	   // connection
        if ( null == self::$cont )
        {      
         try 
